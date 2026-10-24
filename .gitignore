@@ -1,0 +1,55 @@
+Dependencies
+
+node_modules/
+**/node_modules/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Build outputs
+
+.next/
+out/
+dist/
+build/
+
+Logs
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+OS files
+
+.DS_Store
+# Ignore nested Git repositories
+
+/skribbl-frontend/.git
+
+/skribbl-backend/.git
+
+# Dependencies and generated files
+
+**/node_modules/
+
+**/.next/
+
+**/out/
+
+**/dist/
+
+# Environment variables
+
+.env
+
+.env.*
+
+!.env.example
+
+# OS files
+
+.DS_Store
+
